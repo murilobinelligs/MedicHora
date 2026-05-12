@@ -1,0 +1,179 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #eef2f7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background: #ffffff;
+    width: 800px;
+    border-radius: 12px;
+    padding: 25px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+}
+
+.titulo {
+    background: linear-gradient(90deg, #3b82f6, #2563eb);
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.titulo h1 {
+    font-size: 22px;
+}
+
+.titulo h5 {
+    font-weight: normal;
+    opacity: 0.9;
+}
+
+.dados_container label {
+    display: block;
+    font-size: 14px;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.dados_container input[type="text"],
+.dados_container input[type="email"],
+.dados_container input[type="date"],
+.dados_container input[type="medicamento"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #dcdcdc;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    transition: 0.2s;
+}
+
+.nome, .email, .data {
+    width: 100%;
+}
+
+.botao button {
+    width: 100%;
+    padding: 12px;
+    background: #3b82f6;
+    border: none;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    transition: 0.3s;
+}
+
+.botao button:hover {
+    background: #2563eb;
+}
+
+.medicamento {
+    margin-top: 10px;
+}
+
+.salvar_medicamento {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.salvar_medicamento h5 {
+    font-size: 12px;
+    color: #777;
+    margin-top: 6%;
+}
+
+.dosagem h2 {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.quantidade_dosagem {
+    display: flex;
+    gap: 15px;
+    margin: 10px 0;
+}
+
+.quantidade_dosagem input {
+    margin-right: 5px;
+    display: flex;
+}
+
+.quantidade input  {
+    max-width: 30%;
+
+}
+
+.medicamento div button {
+    padding: 8px 12px;
+    border: none;
+    background: #e5e7eb;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.medicamento div input {
+    width: 60px;
+    text-align: center;
+    margin: 0 5px;
+    padding: 8px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+}
+
+.calculo {
+    margin-top: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+    margin-bottom: 20px;
+}
+
+.calculo :hover {
+    background: #2563eb;
+}
+
+.calculo h2 {
+    background: #3b82f6;
+    color: white;
+    text-align: center;
+    padding: 12px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.container_resultado {
+    margin-top: 20px;
+    background: #e6f4ea;
+    border-radius: 10px;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.resultado h4 {
+    color: #2e7d32;
+}
+
+.resultado p {
+    font-size: 18px;
+    font-weight: bold;
+    color: #2e7d32;
+}
+
+.resultado h6 {
+    font-size: 12px;
+    color: #4b5563;
+}
